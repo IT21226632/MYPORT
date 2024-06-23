@@ -16,7 +16,7 @@ const titleVariants = {
   },
 };
 
-export default function index({ index, title, description, tech = '', isSelected, setSelectedProject }) {
+export default function Index({ index, title, description, tech = '', isSelected, setSelectedProject }) {
 
   const technologies = tech.split(',').map(tech => tech.trim());
 

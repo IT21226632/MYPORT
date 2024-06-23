@@ -5,7 +5,7 @@ import { slideUp, opacity } from './anim';
 import Round from '../Rounded'
 
 
-export default function index() {
+export default function Index() {
 
     const phrase = "I am passionate about coding, designing, and developing innovative and creative solutions. I thrive on turning complex problems into user-friendly applications.";
     const description = useRef(null);

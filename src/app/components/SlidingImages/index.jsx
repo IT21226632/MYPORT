@@ -6,42 +6,42 @@ import Image from 'next/image';
 const slider1 = [
     {
         color: "#e3e5e7",
-        src: "c2.jpg"
+        // src: "c2.jpg"
     },
     {
         color: "#d6d7dc",
-        src: "decimal.jpg"
+        // src: "decimal.jpg"
     },
     {
         color: "#e3e3e3",
-        src: "funny.jpg"
+        // src: "funny.jpg"
     },
     {
         color: "#21242b",
-        src: "google.jpg"
+        // src: "google.jpg"
     }
 ]
 
 const slider2 = [
     {
         color: "#d4e3ec",
-        src: "maven.jpg"
+        // src: "maven.jpg"
     },
     {
         color: "#e5e0e1",
-        src: "panda.jpg"
+        // src: "panda.jpg"
     },
     {
         color: "#d7d4cf",
-        src: "powell.jpg"
+        // src: "powell.jpg"
     },
     {
         color: "#e1dad6",
-        src: "wix.jpg"
+        // src: "wix.jpg"
     }
 ]
 
-export default function index() {
+export default function Index() {
 
     const container = useRef(null);
     const { scrollYProgress } = useScroll({
@@ -60,10 +60,10 @@ export default function index() {
                         slider1.map( (project, index) => {
                             return <div className={styles.project} style={{backgroundColor: project.color}} >
                                 <div key={index} className={styles.imageContainer}>
-                                    <Image 
+                                    {/* <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={`/images/${project.src}`}/>
+                                    src={`/images/${project.src}`}/> */}
                                 </div>
                             </div>
                         })
@@ -74,10 +74,10 @@ export default function index() {
                         slider2.map( (project, index) => {
                             return <div className={styles.project} style={{backgroundColor: project.color}} >
                                 <div key={index} className={styles.imageContainer}>
-                                    <Image 
+                                    {/* <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={`/images/${project.src}`}/>
+                                    src={`/images/${project.src}`}/> */}
                                 </div>
                             </div>
                         })
