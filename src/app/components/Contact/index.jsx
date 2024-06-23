@@ -26,7 +26,7 @@ export default function Index() {
                             src={`/images/conport.png`}
                             />
                         </div>
-                        <h2>Let's work</h2>
+                        <h2>Let&apos;s work</h2>
                     </span>
                     <h2>together</h2>
                     

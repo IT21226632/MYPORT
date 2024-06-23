@@ -58,7 +58,7 @@ export default function Index() {
             <motion.div style={{x: x1}} className={styles.slider}>
                     {
                         slider1.map( (project, index) => {
-                            return <div className={styles.project} style={{backgroundColor: project.color}} >
+                            return <div className={styles.project} key={index} style={{backgroundColor: project.color}} >
                                 <div key={index} className={styles.imageContainer}>
                                     {/* <Image 
                                     fill={true}
@@ -72,7 +72,7 @@ export default function Index() {
                 <motion.div style={{x: x2}} className={styles.slider}>
                     {
                         slider2.map( (project, index) => {
-                            return <div className={styles.project} style={{backgroundColor: project.color}} >
+                            return <div className={styles.project} key={index} style={{backgroundColor: project.color}} >
                                 <div key={index} className={styles.imageContainer}>
                                     {/* <Image 
                                     fill={true}
