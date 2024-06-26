@@ -7,6 +7,7 @@ import Description from './components/Description';
 import Contact from './components/Contact';
 import Slide from './components/SlidingImages';
 import Projects from './components/Projects';
+import Skills from './components/Skills'
 
 import './page.css';
 
@@ -36,6 +37,9 @@ export default function Home() {
       
       <div id="about">
         <Description />
+      </div>
+      <div id="skills">
+        <Skills />
       </div>
       <div id="work">
         <Projects />

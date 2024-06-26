@@ -3,18 +3,6 @@ import React from 'react'
 import styles from './style.module.scss';
 import { motion } from 'framer-motion';
 
-const titleVariants = {
-  hidden: { opacity: 0, y: -50 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.8,
-      type: 'spring',
-      stiffness: 70,
-    },
-  },
-};
 
 export default function Index({ index, title, description, tech = '', isSelected, setSelectedProject }) {
 
