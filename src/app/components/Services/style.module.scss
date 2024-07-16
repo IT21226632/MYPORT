@@ -1,0 +1,79 @@
+.serviceMainCon{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceMainArea{
+    height: 60vh;
+    width: 70%;
+    
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+    font-size: 46px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.Description{
+    display: flex;
+    justify-content: center;
+    opacity: 0.5
+}
+
+.ServiceArea{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.ServiceRow{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.ServiceItem{
+    display: flex;
+    height: 100px;
+    width: 32%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ServiceItemImage{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ServiceItemTitle{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.ServiceItemDetails{
+    font-size: 0.9em;
+    opacity: 0.7;
+}
+
+.ServiceItemDetail{
+    font-size: 0.9em;
+    opacity: 0.7;
+    padding-left: 5px;
+}
+
+.ServiceItem2{
+    display: flex;
+    height: 100px;
+    width: 32%;
+    border-radius: 5px;
+}

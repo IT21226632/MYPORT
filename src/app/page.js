@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Slide from './components/SlidingImages';
 import Projects from './components/Projects';
 import Skills from './components/Skills'
+import Service from './components/Services'
 
 import './page.css';
 
@@ -40,6 +41,9 @@ export default function Home() {
       </div>
       <div id="skills">
         <Skills />
+      </div>
+      <div id="service">
+        <Service />
       </div>
       <div id="work">
         <Projects />
