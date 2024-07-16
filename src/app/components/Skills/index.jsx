@@ -133,7 +133,7 @@ function Index() {
                             whileInView="visible"
                             variants={skillVariants}
                             transition={{ duration: 0.5, ease: "easeOut" }}>
-                            <item.icon size={40} />
+                            <item.icon size={30} opacity={0.5} />
                             <div className={styles.languageItemName}>{item.name}</div>
                         </motion.div>
                     ))}
@@ -146,7 +146,7 @@ function Index() {
                             whileInView="visible"
                             variants={skillVariants}
                             transition={{ duration: 0.5, ease: "easeOut" }}>
-                            <item.icon size={40} />
+                            <item.icon size={30} opacity={0.5} />
                             <div className={styles.languageItemName}>{item.name}</div>
                             
                         </motion.div>
@@ -160,7 +160,7 @@ function Index() {
                             whileInView="visible"
                             variants={skillVariants}
                             transition={{ duration: 0.5, ease: "easeOut" }}>
-                            <item.icon size={40} />
+                            <item.icon size={30} opacity={0.5}/>
                             <div className={styles.languageItemName}>{item.name}</div>
                             
                         </motion.div>
