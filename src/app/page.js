@@ -9,6 +9,7 @@ import Slide from './components/SlidingImages';
 import Projects from './components/Projects';
 import Skills from './components/Skills'
 import Service from './components/Services'
+import Gallery from './components/Gallery'
 
 import './page.css';
 
@@ -41,6 +42,9 @@ export default function Home() {
       </div>
       <div id="skills">
         <Skills />
+      </div>
+      <div id="gallery">
+        <Gallery />
       </div>
       <div id="service">
         <Service />
