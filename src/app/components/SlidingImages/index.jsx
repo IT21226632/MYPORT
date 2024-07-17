@@ -6,38 +6,38 @@ import Image from 'next/image';
 const slider1 = [
     {
         color: "#e3e5e7",
-        // src: "c2.jpg"
+        src: "Not.jpg"
     },
     {
         color: "#d6d7dc",
-        // src: "decimal.jpg"
+        src: "Not.jpg"
     },
     {
         color: "#e3e3e3",
-        // src: "funny.jpg"
+        src: "Not.jpg"
     },
     {
         color: "#21242b",
-        // src: "google.jpg"
+        src: "Not.jpg"
     }
 ]
 
 const slider2 = [
     {
         color: "#d4e3ec",
-        // src: "maven.jpg"
+        src: "Not.jpg"
     },
     {
         color: "#e5e0e1",
-        // src: "panda.jpg"
+        src: "Not.jpg"
     },
     {
         color: "#d7d4cf",
-        // src: "powell.jpg"
+        src: "Not.jpg"
     },
     {
         color: "#e1dad6",
-        // src: "wix.jpg"
+        src: "Not.jpg"
     }
 ]
 
@@ -60,10 +60,10 @@ export default function Index() {
                         slider1.map( (project, index) => {
                             return <div className={styles.project} key={index} style={{backgroundColor: project.color}} >
                                 <div key={index} className={styles.imageContainer}>
-                                    {/* <Image 
+                                    <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={`/images/${project.src}`}/> */}
+                                    src={`/images/${project.src}`}/>
                                 </div>
                             </div>
                         })
@@ -74,10 +74,10 @@ export default function Index() {
                         slider2.map( (project, index) => {
                             return <div className={styles.project} key={index} style={{backgroundColor: project.color}} >
                                 <div key={index} className={styles.imageContainer}>
-                                    {/* <Image 
+                                    <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={`/images/${project.src}`}/> */}
+                                    src={`/images/${project.src}`}/>
                                 </div>
                             </div>
                         })
