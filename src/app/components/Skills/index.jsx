@@ -3,6 +3,7 @@ import styles from './style.module.scss'
 import { motion } from 'framer-motion';
 
 import { FaNodeJs, FaReact, FaJava, FaHtml5 } from "react-icons/fa6";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { TbBrandJavascript } from "react-icons/tb";
 import { SiMysql, SiMongodb, SiTailwindcss } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
@@ -41,10 +42,13 @@ const skillVariants = {
 const skills = [
     { skill: "Collaborative" },
     { skill: "Attention to Details" },
-    { skill: "Executive Presentation" },
+    { skill: "Software Development" },
+    { skill: "Software Testing" },
     { skill: "Critical Thinking" },
     { skill: "Problem Solving" },
-    { skill: "Excellent Communication" }
+    { skill: "Excellent Communication" },
+    { skill: "Executive Presentation" },
+    { skill: "Coding Standards" },
 ]
 
 const languages = [
@@ -116,6 +120,7 @@ function Index() {
                             whileInView="visible"
                             variants={skillVariants}
                             transition={{ duration: 0.5, ease: "easeOut" }}>
+                            <FaArrowUpRightFromSquare opacity={0.5}/>
                             {item.skill}
                         </motion.div>
                     ))}
