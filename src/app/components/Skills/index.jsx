@@ -101,7 +101,7 @@ function Index() {
             whileInView="visible"
             variants={titleVariants}
             transition={{ duration: 0.5, ease: "easeOut" }}>
-                My Skills
+                My Expertise
             </motion.div>
         </div>
         <div className={styles.skillMainArea}>
