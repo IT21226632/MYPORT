@@ -10,7 +10,7 @@
         display: flex;
         gap: 50px;
         position: relative;
-        p{
+        .left{
             margin: 0px;
             &:nth-of-type(1){
                 font-size: 32px;
@@ -23,12 +23,50 @@
                     position: relative;
                     overflow: hidden;
                     display: inline-flex;
+                    
                 }
             }
             &:nth-of-type(2){
                 font-size: 18px;
                 width: 80%;
                 font-weight: 300;
+            }
+            .education{
+                margin-top: 50px;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                
+                .educationTitle{
+                    font-size: 26px;
+                    margin-bottom: 10px;
+                    opacity: 0.5;
+                }
+                .educationItem{
+                    display: flex;
+                    padding: 10px;
+                    border-radius: 5px;
+                    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+
+                    .educationItemImage{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 80px;
+                        height: 100%;
+                        opacity: 0.8;
+                    }
+                    .educationItemTextName{
+                        font-size: 18px;
+                        padding: 5px;
+                        padding-top: 10px;
+                    }
+                    .educationItemTextdetails{
+                        font-size: 14px;
+                        padding: 5px;
+                        opacity: 0.5;
+                    }
+                }
             }
         }
         .button{
