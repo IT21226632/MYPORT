@@ -12,8 +12,8 @@ import { FaGithub } from "react-icons/fa6";
 
 const navItems = [
   {
-    title: "Home",
-    id: "home", // Update with section ID
+    title: "Services",
+    id: "service", // Update with section ID
   },
   {
     title: "Work",
