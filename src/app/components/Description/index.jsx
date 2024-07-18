@@ -40,7 +40,7 @@ export default function Index() {
                        </div>
                         <div className={styles.educationItemText}>
                            <div className={styles.educationItemTextdetails}>
-                                {/* <span>BSc (Hons) in Information Technology Specializing Software Engineering<br/>Sri Lanka Institute of Information Technology <br></br>2021 - Present</span> */}
+                                <span>BSc (Hon&apos;s) in Information Technology Specializing Software Engineering<br/>Sri Lanka Institute of Information Technology <br></br>2021 - Present</span>
                            </div>
                         </div>
                     </div>
